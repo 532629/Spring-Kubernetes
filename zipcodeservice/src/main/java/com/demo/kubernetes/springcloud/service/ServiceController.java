@@ -15,7 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ServiceController {
-	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/REDACTED/";
+	
+	//private static final String URLPrefix = "https://www.zipcodeapi.com/rest/REDACTED/";
+	
+	private static final String clientkey="e8okH1PygNtZF40sU2dH30XKYUzbJ0xYGK9ebgy0nrUWXQRK3yviTQH7eCF204si";
+	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/"+clientkey+"/";
 	private static final String GET = "GET";
 	
 	protected Logger logger = Logger.getLogger(ServiceController.class.getName());
