@@ -15,11 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ServiceController {
-	
-	/*private static final String URLPrefix = "https://www.zipcodeapi.com/rest/REDACTED/";
-	 */
-	private static final String clientKey1="e8okH1PygNtZF40sU2dH30XKYUzbJ0xYGK9ebgy0nrUWXQRK3yviTQH7eCF204si";
-	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/"+clientKey1+"/";
+	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/REDACTED/";
 	private static final String GET = "GET";
 	
 	protected Logger logger = Logger.getLogger(ServiceController.class.getName());
@@ -27,7 +23,6 @@ public class ServiceController {
 	@Autowired
 	public ServiceController() {
 		logger.info("ServiceController initiated");
-		system.out.ptintln("Ghanshyam : URLPrefix URL is "+URLPrefix);
 	}
 
 	@RequestMapping(value = "/zipcodeservice/info/{zipcode}", produces = { "application/json" })
