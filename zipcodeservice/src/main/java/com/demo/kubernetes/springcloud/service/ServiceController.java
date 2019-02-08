@@ -18,8 +18,8 @@ public class ServiceController {
 	
 	/*private static final String URLPrefix = "https://www.zipcodeapi.com/rest/REDACTED/";
 	 */
-	private static final String clientKey="e8okH1PygNtZF40sU2dH30XKYUzbJ0xYGK9ebgy0nrUWXQRK3yviTQH7eCF204si";
-	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/"+clientKey+"/";
+	private static final String clientKey1="e8okH1PygNtZF40sU2dH30XKYUzbJ0xYGK9ebgy0nrUWXQRK3yviTQH7eCF204si";
+	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/"+clientKey1+"/";
 	private static final String GET = "GET";
 	
 	protected Logger logger = Logger.getLogger(ServiceController.class.getName());
