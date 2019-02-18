@@ -18,7 +18,9 @@ public class ServiceController {
 	
 	//private static final String URLPrefix = "https://www.zipcodeapi.com/rest/REDACTED/";
 	
-	private static final String clientkey="WDyQKB9ivOdZqyzRFhmrbYCgmRnKwWjIWZpUcHMCjHdkan17vzKgnYGHWdcyrkzl";
+	//private static final String clientkey="WDyQKB9ivOdZqyzRFhmrbYCgmRnKwWjIWZpUcHMCjHdkan17vzKgnYGHWdcyrkzl";
+	private static final String clientkey="HBxMce6VETPlGOKfisR4MXrgeQ006chpJ81XcorspiOPDIL4qluy1Ye1md0gxSnC";
+	
 	private static final String URLPrefix = "https://www.zipcodeapi.com/rest/"+clientkey+"/";
 	private static final String GET = "GET";
 	
